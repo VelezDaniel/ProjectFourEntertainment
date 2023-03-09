@@ -11,7 +11,6 @@
 
 /*-- NAVIGATION--*/
 nav {
-  background-color: #110808;
   padding: 40px 0;
   display: flex;
   justify-content: start;
@@ -21,12 +20,62 @@ nav {
 nav:first-child {
   padding-left: 70px;
 }
+nav:last-child {
+  margin-left: auto;
+}
 
 .a-nav {
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
   color: #1d1a58;
+}
+
+.a-nav:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #a248d3, 0 0 20px #a248d3, 0 0 40px #a248d3;
+}
+
+.a-nav:active {
+  color: #7022f8;
+}
+
+/*--BODY--*/
+
+header,
+section,
+nav {
+  background-color: #0d0101;
+}
+
+header h1,
+header p {
+  color: #dfd4ff;
+}
+
+header h1 {
+  font-size: 52px;
+  letter-spacing: 2.5px;
+  word-spacing: 4px;
+  padding-top: 32px;
+}
+
+header p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+header {
+  padding: 50px;
+
+  display: flex;
+  align-content: center;
+  gap: 30px;
+}
+
+.wolf {
+  height: 700px;
+  width: auto;
 }
 
 /*FOOTER
@@ -37,7 +86,7 @@ text color: #515151
 */
 
 footer {
-  background-color: #110808;
+  background-color: #060000;
 }
 
 .flex-container {
