@@ -86,46 +86,19 @@ header {
   gap: 30px;
 }
 
+header::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: linear-gradient(#737373, #525252);
+}
+
 .wolf {
   height: 700px;
   width: auto;
-}
-
-/*CONTENT*/
-
-.btns {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 180px;
-}
-
-.btn-movie,
-.btn-movie:link,
-.btn-movie:visited,
-.btn-serie:link,
-.btn-serie:visited,
-.btn-serie {
-  border-radius: 5px;
-  border: none;
-  color: #060000;
-  font-size: 41px;
-  font-weight: 600;
-  padding: 10px 20px;
-  text-decoration: none;
-  background: #12103a;
-}
-
-.btn-movie:hover,
-.btn-serie:hover {
-  color: #fff;
-  background: #1d1a58;
-  box-shadow: 0px 0px 30px #7022f8;
-  cursor: pointer;
-}
-
-.btn-movie:active,
-.btn-serie:active {
-  color: #7022f8;
 }
 
 /*FOOTER
