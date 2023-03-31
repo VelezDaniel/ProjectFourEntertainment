@@ -110,22 +110,24 @@ header {
   color: #060000;
   font-size: 41px;
   font-weight: 600;
-  padding: 10px 20px;
+  padding: 16px 45px;
   text-decoration: none;
   background: #12103a;
+  box-shadow: 0px 0px 30px rgb(78, 31, 84), 0px 0px 60px rgb(100, 42, 105);
 }
 
 .btn-movie:hover,
 .btn-serie:hover {
   color: #fff;
   background: #1d1a58;
-  box-shadow: 0px 0px 30px #7022f8;
+  box-shadow: 0 0 10px #5c028c, 0 0 10px #65188f, 0 0 80px #a248d3,
+    0 0 90px #580983;
   cursor: pointer;
 }
 
 .btn-movie:active,
 .btn-serie:active {
-  color: #7022f8;
+  color: #e322f8;
 }
 
 /*FOOTER
